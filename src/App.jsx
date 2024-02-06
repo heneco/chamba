@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Button variant="contained" disabled={buttonDisabled} sx={{ backgroundColor: "red" }}>Click me</Button>
-      <Button variant="contained" sx={{ backgroundColor: "red" }} onClick={() => setButtonDisabled(prevButtonDisabled => !prevButtonDisabled)}>Toggle first button</Button>
+      <Button variant="contained" disabled={buttonDisabled}>Click me</Button>
+      <Button variant="contained" onClick={() => setButtonDisabled(prevButtonDisabled => !prevButtonDisabled)}>Toggle first button</Button>
     </div>
   )
 }
